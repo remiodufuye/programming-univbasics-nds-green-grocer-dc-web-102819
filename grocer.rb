@@ -1,4 +1,5 @@
 
+
 def consolidate_cart(cart)
     final_hash = {}
     cart.each do |element_hash|
@@ -13,10 +14,9 @@ def consolidate_cart(cart)
         final_hash[element_name] = {
           count: 1 , 
           price:  element_stats[:price] , 
-          clearance: = element_stats[:clearance] 
+          clearance:  element_stats[:clearance] 
         }
-     
-     
+      #  binding.pry 
       end
     end 
     final_hash
