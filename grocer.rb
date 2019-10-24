@@ -1,4 +1,5 @@
 
+require 'pry'
 
 def consolidate_cart(cart)
     final_hash = {}
@@ -17,3 +18,4 @@ def consolidate_cart(cart)
       end
     end 
     final_hash
+end  
