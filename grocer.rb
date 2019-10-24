@@ -15,7 +15,8 @@ def consolidate_cart(cart)
           price:  element_stats[:price] , 
           clearance: = element_stats[:clearance] 
         }
-      #  binding.pry 
+     
+     
       end
     end 
     final_hash
